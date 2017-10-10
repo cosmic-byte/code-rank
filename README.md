@@ -1,2 +1,2 @@
-# spring-boot-boilerplate
-A project to bootstrap a spring boot app with user authentication with a database, and test samples.
+# Code-Rank
+A platform for developers to test their capabilities, find mentors and learn form all available resources.
