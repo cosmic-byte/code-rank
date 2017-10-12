@@ -1,11 +1,19 @@
 package com.coderank.io.dto;
 
 import org.hibernate.validator.constraints.Email;
+import org.springframework.data.elasticsearch.annotations.Document;
 
+import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
+
+@Document(indexName = "coderank-index", type = "user")
 public class UserDto {
+
+
+    @Id
+    private Long id;
 
     @NotNull
     @Size(min=2, max=30, message="The length lastname should be within the range of 2 to 30.")
@@ -63,5 +71,13 @@ public class UserDto {
         this.lastname = lastname;
         this.email = email;
         this.password = password;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 }
