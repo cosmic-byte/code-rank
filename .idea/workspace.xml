@@ -2,53 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29e1f57d-2c86-41bc-a7ac-cf1bc9dd89bc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/config/DataConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/config/MethodSecurityConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/enums/RoleType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/coderank/io/mocks/UserMocks.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/config/MethodSecurityConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/enums/RoleType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/service/UserService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/springboilerplate/springboilerplate/mocks/UserMocks.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/SpringBoilerplateApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/CodeRankApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/config/ModelMapperConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/config/ModelMapperConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/config/ObjectMapperBean.java" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/config/ObjectMapperBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/constants/EnvironmentConstants.java" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/constants/EnvironmentConstants.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/controller/UserController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/dto/UserDto.java" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/dto/UserDto.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/exceptions/ApiError.java" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/exceptions/ApiError.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/exceptions/CentralizedExceptionHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/exceptions/CentralizedExceptionHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/mapper/UserDtoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/mapper/UserDtoMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/model/Role.java" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/model/Role.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/model/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/repository/RoleRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/repository/RoleRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/repository/UserRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/repository/UserRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/security/AccountCredentials.java" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/security/AccountCredentials.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/security/CustomUserDetailsService.java" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/security/CustomUserDetailsService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/security/CustomUserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/security/CustomUserService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/security/JwtLoginFilter.java" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/security/JwtLoginFilter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/security/LoginSuccessHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/security/LoginSuccessHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/security/StatelessAuthenticationFilter.java" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/security/StatelessAuthenticationFilter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/security/StatelessAuthenticationSecurityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/security/StatelessAuthenticationSecurityConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/security/TokenAuthenticationService.java" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/security/TokenAuthenticationService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/security/TokenHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/security/TokenHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/security/UserAuthentication.java" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/security/UserAuthentication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/service/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/service/UserServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/utils/JsonUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/utils/JsonUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/springboilerplate/springboilerplate/controller/UserControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/coderank/io/controller/UserControllerTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/springboilerplate/springboilerplate/mapper/UserDtoMapperTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/coderank/io/mapper/UserDtoMapperTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/springboilerplate/springboilerplate/mocks/EnvironmentMocks.java" afterPath="$PROJECT_DIR$/src/test/java/com/coderank/io/mocks/EnvironmentMocks.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/springboilerplate/springboilerplate/mocks/MapperMocks.java" afterPath="$PROJECT_DIR$/src/test/java/com/coderank/io/mocks/MapperMocks.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/springboilerplate/springboilerplate/mocks/RoleMocks.java" afterPath="$PROJECT_DIR$/src/test/java/com/coderank/io/mocks/RoleMocks.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/springboilerplate/springboilerplate/repository/RoleRepositoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/coderank/io/repository/RoleRepositoryTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/springboilerplate/springboilerplate/repository/UserRepositoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/coderank/io/repository/UserRepositoryTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/springboilerplate/springboilerplate/service/UserServiceImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/coderank/io/service/UserServiceImplTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/springboilerplate/springboilerplate/stubs/TestStubs.java" afterPath="$PROJECT_DIR$/src/test/java/com/coderank/io/stubs/TestStubs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comcoderank.iml" afterPath="$PROJECT_DIR$/comcoderank.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/coderank/io/CodeRankApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/coderank/io/CodeRankApplication.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,23 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DataConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/coderank/io/config/DataConfig.java">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="861">
-              <caret line="73" column="69" lean-forward="false" selection-start-line="73" selection-start-column="69" selection-end-line="73" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="36">
+              <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -96,11 +42,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/springboilerplate/springboilerplate/config/DataConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coderank/io/config/DataConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coderank/io/CodeRankApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -140,39 +88,6 @@
             <path>
               <item name="comcoderank" type="b2602c69:ProjectViewProjectNode" />
               <item name="comcoderank" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comcoderank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comcoderank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comcoderank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comcoderank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comcoderank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comcoderank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comcoderank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comcoderank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comcoderank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comcoderank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -363,10 +278,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7060653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7589425" sideWeight="0.4969697" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.592535" sideWeight="0.4969697" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33257577" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33257577" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -521,7 +436,7 @@
         <state relative-caret-position="291">
           <caret line="48" column="5" lean-forward="false" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -565,28 +480,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/coderank/io/service/UserServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-828">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="n#parent#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#properties#0;n#project#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -751,14 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderank/io/CodeRankApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/coderank/io/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -781,20 +670,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="31" lean-forward="true" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/coderank/io/config/DataConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
+        <state relative-caret-position="415">
           <caret line="73" column="69" lean-forward="false" selection-start-line="73" selection-start-column="69" selection-end-line="73" selection-end-column="69" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coderank/io/CodeRankApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+          <folding>
+            <element signature="n#parent#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#properties#0;n#project#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding />
         </state>
       </provider>
